@@ -63,6 +63,19 @@ bool isStrongAgainst(Type attacker, Type defender);
  * @brief Pokeymon struct represents a Pokeymon with various attributes.
  */
 // TODO - define the Pokeymon struct with the following members
+struct Pokeymon {
+  std::string name;
+  Type type;
+  int currentHealth;
+  int maxHealth;
+  int attack;
+  int defense;
+
+};
+
+
+  /* data */
+
 
 /**
  * @brief getDescription returns a string description of the given Pokeymon.
