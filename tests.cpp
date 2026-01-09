@@ -21,6 +21,7 @@
 //   CHECK(isStrongAgainst(Type::NORMAL, Type::FIRE) == false);
 // }#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
+#include <iostream>
 
 using doctest::Approx;
 
