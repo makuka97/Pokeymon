@@ -22,9 +22,9 @@ TEST_CASE("setup verification")
    CHECK(stringToType("Ice") == Type::ICE);
    CHECK(stringToType("Normal") == Type::NORMAL);
 
-//   // Test unknown string defaults to NORMAL
-//   CHECK(stringToType("") == Type::NORMAL);
-// }
+    //Test unknown string defaults to NORMAL
+   CHECK(stringToType("") == Type::NORMAL);
+ }
 
 // TEST_CASE("typeToString")
 // {
