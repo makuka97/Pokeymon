@@ -54,6 +54,6 @@ std::string attack(const Pokeymon& attacker, Pokeymon& defender){
   return "";
 }
 
-void battle (okeymon& p1, Pokeymon& p2){
+void battle (Pokeymon& p1, Pokeymon& p2){
   //stub
 }
