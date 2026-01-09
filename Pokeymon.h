@@ -4,7 +4,6 @@
 #include <string>
 // Not "using namespace std;" to avoid namespace pollution
 // Use "std::string" explicitly in this file
-struct Pokeymon;
 
 
 /**
