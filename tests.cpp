@@ -14,26 +14,26 @@ TEST_CASE("setup verification")
   cout << message << endl;
 }
 
- TEST_CASE("stringToType")
- {
-   cout << "(1) stringToType tests..." << endl;
-   CHECK(stringToType("Fire") == Type::FIRE);
-   CHECK(stringToType("Water") == Type::WATER);
-   CHECK(stringToType("Ice") == Type::ICE);
-   CHECK(stringToType("Normal") == Type::NORMAL);
+TEST_CASE("stringToType")
+{
+  cout << "(1) stringToType tests..." << endl;
+  CHECK(stringToType("Fire") == Type::FIRE);
+  CHECK(stringToType("Water") == Type::WATER);
+  CHECK(stringToType("Ice") == Type::ICE);
+  CHECK(stringToType("Normal") == Type::NORMAL);
 
-    //Test unknown string defaults to NORMAL
+  // Test unknown string defaults to NORMAL
   CHECK(stringToType("") == Type::NORMAL);
- }
+}
 
-// TEST_CASE("typeToString")
-// {
-//   cout << "(2) typeToString tests..." << endl;
-//   CHECK(typeToString(Type::FIRE) == "Fire");
-//   CHECK(typeToString(Type::WATER) == "Water");
-//   CHECK(typeToString(Type::ICE) == "Ice");
-//   CHECK(typeToString(Type::NORMAL) == "Normal");
-// }
+TEST_CASE("typeToString")
+{
+  cout << "(2) typeToString tests..." << endl;
+  CHECK(typeToString(Type::FIRE) == "Fire");
+  CHECK(typeToString(Type::WATER) == "Water");
+  CHECK(typeToString(Type::ICE) == "Ice");
+  CHECK(typeToString(Type::NORMAL) == "Normal");
+}
 
 // TEST_CASE("isStrongAgainst")
 // {
@@ -53,7 +53,8 @@ TEST_CASE("setup verification")
 //   cout << "(4) getDescription tests..." << endl;
 //   Pokeymon p = {"Testmon", Type::WATER, 80, 120, 40, 15};
 //   std::string desc = getDescription(p);
-//   CHECK(desc == "Name: Testmon, Type: Water, Health: 80/120, Atk: 40, Def: 15");
+//   CHECK(desc == "Name: Testmon, Type: Water, Health: 80/120, Atk: 40, Def:
+//   15");
 
 //   Pokeymon p2 = {"Icy", Type::ICE, 82, 90, 25, 15};
 //   std::string desc2 = getDescription(p2);
