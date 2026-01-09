@@ -14,6 +14,13 @@ string getSetupVerificationMessage() {
 string typeToString(Type type){
   if (type == FIRE){
     return "Fire";
-  } else if (type == )
+  } else if (type == WATER){
+    return "Water";
+  } else if (type == ICE){
+    return "Ice";
+  } else{
+    return "Normal";
+
   }
-}
+  }
+  
