@@ -25,8 +25,23 @@ string typeToString(Type type){
 }
 
 Type stringToType(const std::string& typetr){
+ //stub it
   return Type::NORMAL;
+
 }
 
+bool isStrongAgainst(Type attacker, Type defender){
+  //stubin it up
+  return false;
+}
+
+//pokeymon helper functions
+//
+//
+
+std::string getDescription(const Pokeymon&){
+  //stub
+  return "";
+}
 
   
