@@ -4,7 +4,7 @@
 #include <string>
 // Not "using namespace std;" to avoid namespace pollution
 // Use "std::string" explicitly in this file
-
+class enum 
 /**
  * @brief Returns a message verifying that the setup is correct.
  *
