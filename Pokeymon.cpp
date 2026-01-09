@@ -19,7 +19,7 @@ string typeToString(Type type){
   } else if (type == Type::ICE){
     return "Ice";
   } else{
-    return Type::NORMAL;
+    return "NORDMAL";
 
   }
 }
