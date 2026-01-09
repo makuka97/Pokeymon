@@ -44,12 +44,12 @@ std::string getDescription(const Pokeymon&){
   return "";
 }
 
-int getAttackDamage(const Pokeymon& attackr, const Pokeymon& defender){
+int getAttackDamage(const Pokeymon& attack, const Pokeymon& defender){
   //stuuubbb
   return 0;
 }  
 
-std::string attack(const Pokeymon& attacker, Pokeymon& defender){
+std::string attack(const Pokeymon& attack, Pokeymon& defender){
   //stubalicioius
   return "";
 }
