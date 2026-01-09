@@ -1,3 +1,30 @@
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
+
+using doctest::Approx;
+
+#include "Pokeymon.h"
+#include <string>
+
+using namespace std;
+
+TEST_CASE("setup verification")
+{
+  string message = getSetupVerificationMessage();
+  cout << message << endl;
+}
+
+ TEST_CASE("stringToType")
+ {
+   cout << "(1) stringToType tests..." << endl;
+   CHECK(stringToType("Fire") == Type::FIRE);
+   CHECK(stringToType("Water") == Type::WATER);
+   CHECK(stringToType("Ice") == Type::ICE);
+   CHECK(stringToType("Normal") == Type::NORMAL);
+
+    //Test unknown string defaults to NORMAL
+  CHECK(stringToType("") == Type::NORMAL);
+ }
 
 // TEST_CASE("typeToString")
 // {
@@ -19,36 +46,7 @@
 //   CHECK(isStrongAgainst(Type::WATER, Type::ICE) == false);
 //   CHECK(isStrongAgainst(Type::ICE, Type::FIRE) == false);
 //   CHECK(isStrongAgainst(Type::NORMAL, Type::FIRE) == false);
-// }#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
-#include <iostream>
-
-using doctest::Approx;
-
-#include "Pokeymon.h"
-#include <string>
-
-
-using namespace std;
-
-TEST_CASE("setup verification")
-{
-  string message = getSetupVerificationMessage();
-  cout << message << endl;
-}
-
- TEST_CASE("stringToType")
- {
-   cout << "(1) stringToType tests..." << endl;
-   CHECK(stringToType("Fire") == Type::FIRE);
-   CHECK(stringToType("Water") == Type::WATER);
-   CHECK(stringToType("Ice") == Type::ICE);
-   CHECK(stringToType("Normal") == Type::NORMAL);
-
-    //Test unknown string defaults to NORMAL
-   CHECK(stringToType("") == Type::NORMAL);
- }
-
+// }
 
 // TEST_CASE("getDescription")
 // {
