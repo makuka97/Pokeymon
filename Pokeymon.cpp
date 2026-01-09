@@ -52,4 +52,6 @@ int getAttackDamage(const Pokeymon& attackr, const Pokeymon& defender){
 std::string attack(const Pokeymon& attacker, Pokeymon& defender){
   //stubalicioius
   return "";
-} 
+}
+
+void battle ()
