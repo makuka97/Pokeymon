@@ -8,12 +8,12 @@ std::string getSetupVerificationMessage() {
 }
 
 Type StringToType(const std::string& type) {
-    if (type == FIRE) {
-        return "Fire";
-    } else if (type == WATER) {
-        return "Water";
-    } else if (type == ICE) {
-        return "Ice";
+    if (type == "fire") {
+        return Fire;
+    } else if (type == "water") {
+        return WATER;
+    } else if (type == "Ice") {
+        return ICE;
     } else {
         return "Normal";
     }
