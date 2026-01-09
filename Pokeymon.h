@@ -6,7 +6,7 @@
 // Use "std::string" explicitly in this file
 struct Pokeymon;
 
-class enum Type;
+class enum {};
 /**
  * @brief Returns a message verifying that the setup is correct.
  *
