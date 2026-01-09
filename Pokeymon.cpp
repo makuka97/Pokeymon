@@ -9,7 +9,7 @@ std::string getSetupVerificationMessage() {
 
 Type StringToType(const std::string& type) {
     if (type == "fire") {
-        return Fire;
+        return FIRE;
     } else if (type == "water") {
         return WATER;
     } else if (type == "Ice") {
