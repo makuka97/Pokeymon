@@ -12,11 +12,11 @@ string getSetupVerificationMessage() {
 }
 
 string typeToString(Type type){
-  if (type == FIRE){
+  if (type == Type::FIRE){
     return "Fire";
-  } else if (type == WATER){
+  } else if (type == Type::WATER){
     return "Water";
-  } else if (type == ICE){
+  } else if (type == Type::ICE){
     return "Ice";
   } else{
     return "Normal";
