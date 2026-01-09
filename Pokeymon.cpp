@@ -19,9 +19,7 @@ std::string typeToString(Type type) {
     }
 }
 
-Type stringToType(const std::string& type) {
-    return NORMAL; // stub
-}
+
 
 bool isStrongAgainst(Type attacker, Type defender) {
     return false; // stub
