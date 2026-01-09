@@ -22,5 +22,5 @@ string typeToString(Type type){
     return "Normal";
 
   }
-  }
+}
   
