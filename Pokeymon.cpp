@@ -24,7 +24,7 @@ string typeToString(Type type){
   }
 }
 
-Type stringToType(const std::string& typetr){
+Type stringToType(const std::string& type){
  //stub it
   return Type::NORMAL;
 
