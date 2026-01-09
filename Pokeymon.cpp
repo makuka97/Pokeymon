@@ -19,7 +19,7 @@ string typeToString(Type type){
   } else if (type == Type::ICE){
     return "Ice";
   } else{
-    return "NORDMAL";
+    return "NORMAL";
 
   }
 }
@@ -44,12 +44,12 @@ std::string getDescription(const Pokeymon&){
   return "";
 }
 
-int getAttackDamage(const Pokeymon& attack, const Pokeymon& defender){
+int getAttackDamage(const Pokeymon& attacker,  Pokeymon& defender){
   //stuuubbb
   return 0;
 }  
 
-std::string attack(const Pokeymon& attack, Pokeymon& defender){
+std::string attack(const Pokeymon& attacker, Pokeymon& defender){
   //stubalicioius
   return "";
 }
