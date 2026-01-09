@@ -4,7 +4,9 @@
 #include <string>
 // Not "using namespace std;" to avoid namespace pollution
 // Use "std::string" explicitly in this file
-struct Pokeymon 
+struct Pokeymon;
+
+class enum Type;
 /**
  * @brief Returns a message verifying that the setup is correct.
  *
