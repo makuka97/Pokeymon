@@ -44,4 +44,9 @@ std::string getDescription(const Pokeymon&){
   return "";
 }
 
-  
+int getAttackDamage(const Pokeymon& attackr, const Pokeymon& defender){
+  //stuuubbb
+  return 0;
+}  
+
+std::string attack(const Pokeymon& attacker )
