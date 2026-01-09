@@ -1,4 +1,25 @@
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+
+// TEST_CASE("typeToString")
+// {
+//   cout << "(2) typeToString tests..." << endl;
+//   CHECK(typeToString(Type::FIRE) == "Fire");
+//   CHECK(typeToString(Type::WATER) == "Water");
+//   CHECK(typeToString(Type::ICE) == "Ice");
+//   CHECK(typeToString(Type::NORMAL) == "Normal");
+// }
+
+// TEST_CASE("isStrongAgainst")
+// {
+//   cout << "(3) isStrongAgainst tests..." << endl;
+//   CHECK(isStrongAgainst(Type::FIRE, Type::ICE) == true);
+//   CHECK(isStrongAgainst(Type::WATER, Type::FIRE) == true);
+//   CHECK(isStrongAgainst(Type::ICE, Type::WATER) == true);
+
+//   CHECK(isStrongAgainst(Type::FIRE, Type::WATER) == false);
+//   CHECK(isStrongAgainst(Type::WATER, Type::ICE) == false);
+//   CHECK(isStrongAgainst(Type::ICE, Type::FIRE) == false);
+//   CHECK(isStrongAgainst(Type::NORMAL, Type::FIRE) == false);
+// }#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 
 using doctest::Approx;
@@ -26,27 +47,6 @@ TEST_CASE("setup verification")
    CHECK(stringToType("") == Type::NORMAL);
  }
 
-// TEST_CASE("typeToString")
-// {
-//   cout << "(2) typeToString tests..." << endl;
-//   CHECK(typeToString(Type::FIRE) == "Fire");
-//   CHECK(typeToString(Type::WATER) == "Water");
-//   CHECK(typeToString(Type::ICE) == "Ice");
-//   CHECK(typeToString(Type::NORMAL) == "Normal");
-// }
-
-// TEST_CASE("isStrongAgainst")
-// {
-//   cout << "(3) isStrongAgainst tests..." << endl;
-//   CHECK(isStrongAgainst(Type::FIRE, Type::ICE) == true);
-//   CHECK(isStrongAgainst(Type::WATER, Type::FIRE) == true);
-//   CHECK(isStrongAgainst(Type::ICE, Type::WATER) == true);
-
-//   CHECK(isStrongAgainst(Type::FIRE, Type::WATER) == false);
-//   CHECK(isStrongAgainst(Type::WATER, Type::ICE) == false);
-//   CHECK(isStrongAgainst(Type::ICE, Type::FIRE) == false);
-//   CHECK(isStrongAgainst(Type::NORMAL, Type::FIRE) == false);
-// }
 
 // TEST_CASE("getDescription")
 // {
