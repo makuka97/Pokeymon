@@ -10,3 +10,10 @@ using namespace std;
 string getSetupVerificationMessage() {
     return "Setup is correct!";
 }
+
+string typeToString(Type type){
+  if (type == FIRE){
+    return "Fire";
+  } else if (type == )
+  }
+}
