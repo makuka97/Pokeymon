@@ -18,6 +18,13 @@ std::string getSetupVerificationMessage();
  */
 // TODO - define the Type enum
 
+enum Type {
+  FIRE;
+  WATER;
+  ICE;
+  NORMAL
+}
+
 /**
  * @brief 'typeToString' converts a Type enum to its string representation.
  *
