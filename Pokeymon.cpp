@@ -14,7 +14,8 @@ Type StringToType(const std::string& type) {
         return WATER;
     } else if (type == "Ice") {
         return ICE;
-    } else {
+    } else if() {
+
         return "Normal";
     }
 }
