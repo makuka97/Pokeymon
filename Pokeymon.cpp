@@ -7,7 +7,7 @@ std::string getSetupVerificationMessage() {
     return "Setup is correct!";
 }
 
-Type StringToType(const std::string& type) {
+Type stringToType(const std::string& type) {
     if (type == "Fire") {
         return FIRE;
     } else if (type == "Water") {
