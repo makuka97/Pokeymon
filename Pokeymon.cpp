@@ -8,9 +8,9 @@ std::string getSetupVerificationMessage() {
 }
 
 Type StringToType(const std::string& type) {
-    if (type == "fire") {
+    if (type == "Fire") {
         return FIRE;
-    } else if (type == "water") {
+    } else if (type == "Water") {
         return WATER;
     } else if (type == "Ice") {
         return ICE;
