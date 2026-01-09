@@ -1,59 +1,44 @@
+#include <string>
 #include <iostream>
-using namespace std;
 
-// Include your function declarations and struct/enum definitions
 #include "Pokeymon.h"
 
-
-// Define functions here based on the declarations in Pokeymon.h
-
-string getSetupVerificationMessage() {
+std::string getSetupVerificationMessage() {
     return "Setup is correct!";
 }
 
-string typeToString(Type type){
-  if (type == Type::FIRE){
-    return "Fire";
-  } else if (type == Type::WATER){
-    return "Water";
-  } else if (type == Type::ICE){
-    return "Ice";
-  } else{
-    return "NORMAL";
-
-  }
+std::string typeToString(Type type) {
+    if (type == FIRE) {
+        return "Fire";
+    } else if (type == WATER) {
+        return "Water";
+    } else if (type == ICE) {
+        return "Ice";
+    } else {
+        return "Normal";
+    }
 }
 
-Type stringToType(const std::string& type){
- //stub it
-  return Type::NORMAL;
-
+Type stringToType(const std::string& type) {
+    return NORMAL; // stub
 }
 
-bool isStrongAgainst(Type attacker, Type defender){
-  //stubin it up
-  return false;
+bool isStrongAgainst(Type attacker, Type defender) {
+    return false; // stub
 }
 
-//pokeymon helper functions
-//
-//
-
-std::string getDescription(const Pokeymon&){
-  //stub
-  return "";
+std::string getDescription(const Pokeymon&) {
+    return ""; // stub
 }
 
-int getAttackDamage(const Pokeymon& attacker,  Pokeymon& defender){
-  //stuuubbb
-  return 0;
-}  
-
-std::string attack(const Pokeymon& attacker, Pokeymon& defender){
-  //stubalicioius
-  return "";
+int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
+    return 0; // stub
 }
 
-void battle (Pokeymon& p1, Pokeymon& p2){
-  //stub
+std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
+    return ""; // stub
+}
+
+void battle(Pokeymon& p1, Pokeymon& p2) {
+    // stub
 }
