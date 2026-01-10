@@ -22,8 +22,8 @@ Type stringToType(const std::string& type) {
 }
 
 string typeToString(Type type){
-    if (type == "Fire") {
-        return FIRE;
+    if (type == FIRE) {
+        return "Fire";
     } else if (type == "Water") {
         return WATER;
     } else if (type == "Ice") {
