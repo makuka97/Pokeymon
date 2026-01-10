@@ -62,7 +62,7 @@ int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
 
     }
 
-    //Double damage if attacker 
+    //Double damage if attacker is strong against defender 
 }
 
 std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
