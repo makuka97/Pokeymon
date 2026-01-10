@@ -34,7 +34,7 @@ std::string typeToString(Type type){
       return NORMAL;
     }
 }
-}
+
 
 bool isStrongAgainst(Type attacker, Type defender) {
     return false; // stub
