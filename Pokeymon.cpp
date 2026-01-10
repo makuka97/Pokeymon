@@ -57,6 +57,10 @@ int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
     int baseDamage = attacker.attack - defender.defense;
 
     //Damage cannot be negative 
+    if(base < 0){
+        baseDamage = 0;
+        
+    }
 }
 
 std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
