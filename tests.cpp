@@ -56,10 +56,10 @@ TEST_CASE("typeToString")
    CHECK(desc == "Name: Testmon, Type: Water, Health: 80/120, Atk: 40, Def:
    15");
 
-//   Pokeymon p2 = {"Icy", Type::ICE, 82, 90, 25, 15};
-//   std::string desc2 = getDescription(p2);
-//   CHECK(desc2 == "Name: Icy, Type: Ice, Health: 82/90, Atk: 25, Def: 15");
-// }
+   Pokeymon p2 = {"Icy", Type::ICE, 82, 90, 25, 15};
+   std::string desc2 = getDescription(p2);
+   CHECK(desc2 == "Name: Icy, Type: Ice, Health: 82/90, Atk: 25, Def: 15");
+ }
 
 // TEST_CASE("getAttackDamage")
 // {
