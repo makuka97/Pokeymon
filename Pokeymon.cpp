@@ -21,7 +21,7 @@ Type stringToType(const std::string& type) {
     }
 }
 
-std::string typeToString(Type type){
+string typeToString(Type type){
     if (type == "Fire") {
         return FIRE;
     } else if (type == "Water") {
