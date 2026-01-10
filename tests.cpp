@@ -86,24 +86,24 @@ TEST_CASE("typeToString")
    CHECK(damage == 0); // Damage cannot be negative
  }
 
-// TEST_CASE("attack")
-// {
-//   cout << "(6) attack tests..." << endl;
-//   Pokeymon charmy;
-//   charmy.name = "Charmy";
-//   charmy.type = Type::FIRE;
-//   charmy.currentHealth = 100;
-//   charmy.maxHealth = 100;
-//   charmy.attack = 30;
-//   charmy.defense = 10;
+ TEST_CASE("attack")
+ {
+   cout << "(6) attack tests..." << endl;
+   Pokeymon charmy;
+   charmy.name = "Charmy";
+   charmy.type = Type::FIRE;
+   charmy.currentHealth = 100;
+   charmy.maxHealth = 100;
+   charmy.attack = 30;
+   charmy.defense = 10;
 
-//   Pokeymon icy;
-//   icy.name = "Icy";
-//   icy.type = Type::ICE;
-//   icy.currentHealth = 90;
-//   icy.maxHealth = 90;
-//   icy.attack = 25;
-//   icy.defense = 15;
+   Pokeymon icy;
+   icy.name = "Icy";
+   icy.type = Type::ICE;
+   icy.currentHealth = 90;
+   icy.maxHealth = 90;
+   icy.attack = 25;
+   icy.defense = 15;
 
 //   string result = attack(charmy, icy);
 //   CHECK(icy.currentHealth == 60);
