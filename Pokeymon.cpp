@@ -86,5 +86,11 @@ std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
 }
 
 void battle(Pokeymon& p1, Pokeymon& p2) {
-    // stub
+    //Battle continues until one pokeymon is deafteated!
+    while (p1.currentHealth > 0 && p2.currentHealth > 0){
+        //p1 attacks p2
+        std::string result = attack(p1, p2);
+        std::cout << result << std::endl;
+         
+    }
 }
