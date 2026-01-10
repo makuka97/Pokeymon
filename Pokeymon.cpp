@@ -75,7 +75,7 @@ std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
 
     //Reduce defender's health 
     defender.currentHealth = defender.currentHealth - damage;
-    
+    if 
 
 }
 
