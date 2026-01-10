@@ -21,7 +21,7 @@ Type stringToType(const std::string& type) {
     }
 }
 
-Type 
+typeToString(const std::string& type)
 
 
 bool isStrongAgainst(Type attacker, Type defender) {
