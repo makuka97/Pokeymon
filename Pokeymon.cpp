@@ -97,7 +97,7 @@ void battle(Pokeymon& p1, Pokeymon& p2) {
 
         //Check if p2 is defeated
         if(p2.currentHealth == 0) {
-            cout << p2.name << " Has been defeated!" << p1.name << " is victorius" << std::endl;
+            std::cout << p2.name << " Has been defeated!" << p1.name << " is victorius" << std::endl;
         }
     }
 }
