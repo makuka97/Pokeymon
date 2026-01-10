@@ -91,6 +91,7 @@ void battle(Pokeymon& p1, Pokeymon& p2) {
         //p1 attacks p2
         std::string result = attack(p1, p2);
         std::cout << result << std::endl;
-         
+        std::cout << p1.name << " Health : " << p1.currentHealth << "/" << p1.maxHealth << std::endl;
+        std::cout << p2.name << " Health : " << p2.currentHealth << "/" << p2.maxHealth << std::endl;
     }
 }
