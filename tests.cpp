@@ -26,14 +26,14 @@ TEST_CASE("stringToType")
   CHECK(stringToType("") == Type::NORMAL);
 }
 
-//TEST_CASE("typeToString")
-//{
-  //cout << "(2) typeToString tests..." << endl;
-  //CHECK(typeToString(Type::FIRE) == "Fire");
-  //CHECK(typeToString(Type::WATER) == "Water");
-  //CHECK(typeToString(Type::ICE) == "Ice");
-  //CHECK(typeToString(Type::NORMAL) == "Normal");
-//}
+TEST_CASE("typeToString")
+{
+  cout << "(2) typeToString tests..." << endl;
+  CHECK(typeToString(Type::FIRE) == "Fire");
+  CHECK(typeToString(Type::WATER) == "Water");
+  CHECK(typeToString(Type::ICE) == "Ice");
+  CHECK(typeToString(Type::NORMAL) == "Normal");
+}
 
 // TEST_CASE("isStrongAgainst")
 // {
