@@ -105,3 +105,4 @@ void battle(Pokeymon& p1, Pokeymon& p2) {
         }
     }
 }
+//All the tests! pass YAY!
