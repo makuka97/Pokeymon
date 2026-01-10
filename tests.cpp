@@ -71,12 +71,12 @@ TEST_CASE("typeToString")
    defender.defense = 20;
    defender.type = Type::ICE;
 
-    Attacker is strong against defender, damage should be doubled
+   // Attacker is strong against defender, damage should be doubled
    int damage = getAttackDamage(attacker, defender);
    CHECK(damage == (50 - 20) * 2);
 
-    Change defender type to WATER, not strong anymore
-  defender.type = Type::WATER;
+   // Change defender type to WATER, not strong anymore
+   defender.type = Type::WATER;
    damage = getAttackDamage(attacker, defender);
    CHECK(damage == (50 - 20));
 
