@@ -75,7 +75,12 @@ std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
 
     //Reduce defender's health 
     defender.currentHealth = defender.currentHealth - damage;
-    if 
+    if (defender.currentHealth < 0){
+        defender.currentHealth = 0;
+    }
+
+    //Create and return the message
+    
 
 }
 
