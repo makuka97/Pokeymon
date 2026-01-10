@@ -37,7 +37,7 @@ std::string typeToString(Type type){
 
 
 bool isStrongAgainst(Type attacker, Type defender) {
-    return false; // stub
+   if (attacker == FIRE && defender == )
 }
 
 std::string getDescription(const Pokeymon&) {
