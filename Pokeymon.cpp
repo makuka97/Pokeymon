@@ -74,7 +74,7 @@ std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
     int damage = getAttackDamage(attacker, defender);
 
     //Reduce defender's health 
-    defender.currentHealth = 
+    defender.currentHealth = getAttackDamage()
 }
 
 void battle(Pokeymon& p1, Pokeymon& p2) {
