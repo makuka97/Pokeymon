@@ -37,7 +37,10 @@ std::string typeToString(Type type){
 
 
 bool isStrongAgainst(Type attacker, Type defender) {
-   if (attacker == FIRE && defender == )
+   //Fire is strong against Ice
+    if (attacker == FIRE && defender == FIRE){
+    return true;
+   }
 }
 
 std::string getDescription(const Pokeymon&) {
