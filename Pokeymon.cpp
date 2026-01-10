@@ -22,7 +22,18 @@ Type stringToType(const std::string& type) {
 }
 
 std::string typeToString(Type type){
-
+    if (type == "Fire") {
+        return FIRE;
+    } else if (type == "Water") {
+        return WATER;
+    } else if (type == "Ice") {
+        return ICE;
+    } else if(type == "Normal") {
+      return NORMAL;
+    } else {
+      return NORMAL;
+    }
+}
 }
 
 bool isStrongAgainst(Type attacker, Type defender) {
