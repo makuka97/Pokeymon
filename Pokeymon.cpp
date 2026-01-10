@@ -24,12 +24,12 @@ Type stringToType(const std::string& type) {
 string typeToString(Type type){
     if (type == FIRE) {
         return "Fire";
-    } else if (type == "Water") {
-        return WATER;
-    } else if (type == "Ice") {
-        return ICE;
-    } else if(type == "Normal") {
-      return NORMAL;
+    } else if (type == WATER) {
+        return "Water";
+    } else if (type == ICE) {
+        return "Ice";
+    } else if(type == NORMAL) {
+      return "Normal";
     } else {
       return NORMAL;
     }
