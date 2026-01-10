@@ -49,7 +49,8 @@ bool isStrongAgainst(Type attacker, Type defender) {
 }
 
 std::string getDescription(const Pokeymon& p) {
-    std::string desc == "Name " + p.name + ", Type: " + typeToString(p.type) +  
+    std::string desc == "Name " + p.name + ", Type: " + typeToString(p.type) + ", Health: "  + to_string(p.currentHealth) + "/" + to_string(p.maxealth) + ", Atk: " + to_string(p.attack) + " Def " + to_string(p.defense);
+    return desc;
 }
 
 int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
