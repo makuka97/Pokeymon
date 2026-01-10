@@ -53,8 +53,7 @@ TEST_CASE("typeToString")
    cout << "(4) getDescription tests..." << endl;
    Pokeymon p = {"Testmon", Type::WATER, 80, 120, 40, 15};
    std::string desc = getDescription(p);
-   CHECK(desc == "Name: Testmon, Type: Water, Health: 80/120, Atk: 40, Def:
-   15");
+   CHECK(desc == "Name: Testmon, Type: Water, Health: 80/120, Atk: 40, Def:15");
 
    Pokeymon p2 = {"Icy", Type::ICE, 82, 90, 25, 15};
    std::string desc2 = getDescription(p2);
