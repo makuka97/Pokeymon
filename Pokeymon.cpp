@@ -21,7 +21,7 @@ Type stringToType(const std::string& type) {
     }
 }
 
-string typeToString(Type type){
+std::string typeToString(Type type){
 
 }
 
