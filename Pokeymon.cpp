@@ -63,7 +63,10 @@ int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
     }
 
     //Double damage if attacker is strong against defender 
-    if(isStrongAgainst(attacker.type, ))
+    if(isStrongAgainst(attacker.type, defender.type)){
+        baseDamage = baseDamage * 2;
+    }
+    return baseDamage;
 }
 
 
