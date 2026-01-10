@@ -71,7 +71,9 @@ int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
 
 
 std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
-    int damage = getAttackDamage(attacker)
+    int damage = getAttackDamage(attacker, defender);
+
+    //
 }
 
 void battle(Pokeymon& p1, Pokeymon& p2) {
