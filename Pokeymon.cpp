@@ -63,7 +63,9 @@ int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
     }
 
     //Double damage if attacker is strong against defender 
+    if(isStrongAgainst(attacker.type, ))
 }
+
 
 std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
     return ""; // stub
