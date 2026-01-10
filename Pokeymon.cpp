@@ -80,7 +80,8 @@ std::string attack(const Pokeymon& attacker, Pokeymon& defender) {
     }
 
     //Create and return the message
-    std:: message = attacker.name + "dealt" + std::to_string(damage) + " damage to " + defender.name + ". " + defender.name + " has " + std::to_string(defender)
+    std::string message = attacker.name + "dealt" + std::to_string(damage) + " damage to " + defender.name + ". " + defender.name + " has " + std::to_string(defender.currentHealth) + " health remaining.";
+    
 
 }
 
