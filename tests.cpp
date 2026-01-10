@@ -60,31 +60,31 @@ TEST_CASE("typeToString")
    CHECK(desc2 == "Name: Icy, Type: Ice, Health: 82/90, Atk: 25, Def: 15");
  }
 
-// TEST_CASE("getAttackDamage")
-// {
-//   cout << "(5) getAttackDamage tests..." << endl;
-//   Pokeymon attacker;
-//   attacker.attack = 50;
-//   attacker.type = Type::FIRE;
+ TEST_CASE("getAttackDamage")
+ {
+   cout << "(5) getAttackDamage tests..." << endl;
+   Pokeymon attacker;
+   attacker.attack = 50;
+   attacker.type = Type::FIRE;
 
-//   Pokeymon defender;
-//   defender.defense = 20;
-//   defender.type = Type::ICE;
+   Pokeymon defender;
+   defender.defense = 20;
+   defender.type = Type::ICE;
 
-//   // Attacker is strong against defender, damage should be doubled
-//   int damage = getAttackDamage(attacker, defender);
-//   CHECK(damage == (50 - 20) * 2);
+    Attacker is strong against defender, damage should be doubled
+   int damage = getAttackDamage(attacker, defender);
+   CHECK(damage == (50 - 20) * 2);
 
-//   // Change defender type to WATER, not strong anymore
-//   defender.type = Type::WATER;
-//   damage = getAttackDamage(attacker, defender);
-//   CHECK(damage == (50 - 20));
+    Change defender type to WATER, not strong anymore
+  defender.type = Type::WATER;
+   damage = getAttackDamage(attacker, defender);
+   CHECK(damage == (50 - 20));
 
-//   // High defense case
-//   defender.defense = 60;
-//   damage = getAttackDamage(attacker, defender);
-//   CHECK(damage == 0); // Damage cannot be negative
-// }
+   // High defense case
+   defender.defense = 60;
+   damage = getAttackDamage(attacker, defender);
+   CHECK(damage == 0); // Damage cannot be negative
+ }
 
 // TEST_CASE("attack")
 // {
