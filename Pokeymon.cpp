@@ -41,6 +41,10 @@ bool isStrongAgainst(Type attacker, Type defender) {
     if (attacker == FIRE && defender == FIRE){
     return true;
    }
+   //Water is strong against FIre
+   if (attacker == WATER && defender == WATER){
+    return true;
+   }
 }
 
 std::string getDescription(const Pokeymon&) {
