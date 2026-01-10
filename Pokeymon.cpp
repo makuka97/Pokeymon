@@ -57,9 +57,9 @@ int getAttackDamage(const Pokeymon& attacker, const Pokeymon& defender) {
     int baseDamage = attacker.attack - defender.defense;
 
     //Damage cannot be negative 
-    if(base < 0){
+    if(base < 0) {
         baseDamage = 0;
-        
+
     }
 }
 
